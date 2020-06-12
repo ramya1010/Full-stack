@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="jquery/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+  $("p").click(function(){
+    $("div").animate({left:'250px'});
+  });
+});
+</script> 
+</head>
+<body>
+
+<p><input type="button" value="Run"></p>
+<div style="background:yellow;height:100px;width:100px;position:absolute;"></div>
+</body>
+</html>
