@@ -1,0 +1,77 @@
+  
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login page</title>
+        <style>
+table,th,td{
+    border: 2px solid green;
+}
+table{
+    width: 100%;
+}
+input[type=text],input[type=password]{
+    width: 200px;
+    margin: 8px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 5px;
+    background-color: darkgray;
+    color: black;
+}
+label{
+    padding: 40px;
+    text-align: right;
+    font-weight: bold;
+    font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace;
+    font-variant: small-caps;
+    color: darkblue;
+}
+th p{
+    font-size: x-large;
+    font-family: fantasy;
+    font-variant: small-caps;
+    text-align: center;
+}
+input[type=button]{
+    cursor: pointer;
+    font-size: large;
+    font-weight: bolder;
+    background-color: darkgrey;
+    color: blue;
+}
+</style>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <th colspan="2">LOGIN HERE</th>
+            </tr>
+            <tr>
+                <td>
+                <label for="username">username</label>
+                </td>
+                <td>
+                    <input type="text" id="txtusername" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="password">password</label>
+                </td>
+                <td>
+                    <input type="password" id="password" />
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="button" id="btnsubmit" value="Submit" />
+                </td>
+            </tr>
+
+
+        </table>
+    </body>
+</html>
